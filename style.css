@@ -1,0 +1,21 @@
+* {
+    height: fit-content;
+    width: auto;
+    text-align: center;
+}
+
+h1{
+    padding-left: 20px;
+    color: brown;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
