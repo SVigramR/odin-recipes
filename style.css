@@ -50,21 +50,21 @@ a:hover {
 }
 
 /* Home Page */
-.recipe-nav {
+.container ul {
+    display: flex;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    border: 5px solid darkgray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item {
+    height: auto;
+    width: auto;
+    border: 3px solid darkolivegreen;
     text-align: center;
-}
-
-.flex {
-    display: inline-flex;
-    margin: 30px;
-    align-items: flex-end;
-    padding-left: 10px;
-}
-
-.card {
-    width: 210px;
-    height: 300px;
-    border: 5px solid black;
 }
 
 /* recipe page */
