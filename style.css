@@ -3,6 +3,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: lightcyan;
 }
 
 body {
@@ -49,22 +50,28 @@ a:hover {
     color: blueviolet;
 }
 
-/* Home Page */
-.container ul {
+.card {
     display: flex;
-    height: auto;
-    width: auto;
-    padding: 10px;
-    border: 5px solid darkgray;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
+/* Home Page */
 .item {
     height: auto;
     width: auto;
-    border: 3px solid darkolivegreen;
+    align-items: flex-start;
+    flex: 1 1 auto;
     text-align: center;
+}
+
+.item img {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 10px;
 }
 
 /* recipe page */
